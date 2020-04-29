@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+    <header> 
+        <title></title>
+        <style>
+            body {
+              max-width: 600px;
+              margin: 0 auto;
+              font-family: 'inherit', sans-serif;
+            }
+            header {
+              width: 95%
+            }
+            #VS-logo {
+              margin: 2% 0% 0% 3%;
+              width: 200px;
+              float: left;
+            }
+            #callout {
+              float: right;
+              margin: 0% 2% 1% 0;
+            }
+            .social {
+              float: right;
+              list-style-type: none;
+              margin-top: 8%;
+            }
+            .social li {
+              display: inline-block;
+            }
+            .socialImg {
+                width: 40px;
+            }
+            .line {
+              clear: both;
+              height: 2px;
+              background-color: black;
+              margin: 4% auto;
+            }
+            .row {
+                display: flex;
+            }
+            .column {
+                width: 120px;
+                padding: 1px;
+            }
+            .banner {
+                height: 300px; 
+                overflow: hidden;
+                position: relative;
+                color: white;
+            }
+            .oneCol {
+                position: absolute;
+                margin-bottom: 40%;
+                bottom: 8px;
+                left: 16px;
+            }
+            .oneColText {
+                position: absolute;
+                margin-left: 50%;
+                bottom: 8px;
+            }
+            #mainTitle {
+                font-size: x-large;
+                font-weight: bolder;
+            }
+            #headerText {
+                font-size: medium;
+                color: white;
+            }
+            .btn1 {
+                float: right;
+                margin-right: 5%;
+                border-radius: 8px;
+                color: white;
+                background-color: black;
+                font-size: 16px;
+                text-decoration: none;
+                padding: 9px 12px;
+                letter-spacing: 1px;
+            }
+            img {
+                max-width: 100%;
+            }
+            .Services {
+                display: flex;
+            }
+            .titleServ {
+                font-size: x-large;
+                font-style: italic;
+                font-weight: 500;
+                font-family: 'inherit', sans-serif;
+                text-align: center;   
+            }
+            .row1 {
+                display: flex;
+                color: whitesmoke;
+                font-weight: 100;
+                letter-spacing: 0.05in;
+                font-family: inherit, sans-serif;
+            }
+            .upperLeft {
+                position: relative;
+            }
+            .upperLeftText {
+                position: absolute;
+                bottom: -10px;
+                left: 5px;
+            }
+            .upperCenter {
+                position: relative;
+            }
+            .upperCenterText {
+                position: absolute;
+                bottom: -10px;
+                left: 5px;
+            }
+            .upperRight {
+                position: relative;
+            }
+            .upperRightText {
+                position: absolute;
+                bottom: -10px;
+                left: 5px;
+            }
+            .upperRightText1 {
+                position: absolute;
+                bottom: -10px;
+                left: 5px;
+            }
+            .row2 {
+                display: flex;
+                color: whitesmoke;
+                font-weight: 100;
+                letter-spacing: 0.05in;
+                font-family: inherit, sans-serif;
+            }
+            .upperLeft1 {
+                position: relative;
+            }
+            .upperLeftText1 {
+                position: absolute;
+                bottom: -10px;
+                left: 5px;
+            }
+            .upperCenter1 {
+                position: relative;
+            }
+            .upperCenterText1 {
+                position: absolute;
+                bottom: -10px;
+                left: 5px;
+            }
+            .upperRight1 {
+                position: relative;
+            }
+            .srvImg {
+                width: 120px;
+                padding: 20px;
+            }
+            .srvImg-1 {
+                width: 120px;
+                padding: 20px;
+            }
+            .Six-Col {
+                background-color: gray;
+            }
+        </style>
+    <body>
+        <div id="wrapper">
+<!-- Heading Start -->
+            <header>
+                <div id="logo"> <!-- Container for Logo -->
+                    <img id="VS-logo" src="https://i.ibb.co/QQzQrDZ/VS-Master-Logo-BW.png" alt="VS-Master-Logo-BW">
+                </div>
+                <div id="callout"> <!-- Container for Social Media -->
+                    <ul class="social"> <!-- Class for all list elements -->
+                        <li><a href="https://twitter.com/visualskies" target="_blank"><img class="socialImg" src="https://i.ibb.co/g4fvFSy/twitter-2.png" alt="Twitter"></a></li>
+                        <li><a href="https://www.facebook.com/visualskies" target="_blank"><img class="socialImg" src="https://i.ibb.co/9TtpXhV/facebook-2.png" alt="Facebook"></a></li>
+                        <li><a href="https://vimeo.com/visualskies" target="_blank"><img class="socialImg" src="https://i.ibb.co/cxHTKny/vimeo.png" alt="Vimeo"></a></li>
+                        <li><a href="https://www.linkedin.com/company/visualskies-ltd" target="_blank"><img class="socialImg" src="https://i.ibb.co/GRzn90b/linkedin-1.png" alt="linkedin"></a></li>
+                        <li><a href="https://www.instagram.com/visualskies_ltd/?hl=en" target="_blank"><img class="socialImg" src="https://i.ibb.co/X22G73Z/instagram-1.png" alt="Instagram"></a></li>  
+                    </ul>
+                </div>
+            </header>
+<!-- Heading End -->
+<!-- Container for main content body -->
+            <div id="container"> 
+                <div class="line"></div> <!-- 1st Line Breaker -->
+<!--Equipment-->    <div class="row" alt="equipment">
+                        <a><img class="column" src="https://i.ibb.co/DW5sd0y/Dji-Inspire-2.png" alt="Dji-Inspire-2"></a>
+                        <a><img class="column" src="https://i.ibb.co/CmZvKgw/Geo-Slam-Horizon-Z50.png" alt="Geo-Slam-Horizon-Z50"></a>
+                        <a><img class="column" src="https://i.ibb.co/1zzKVPH/DJI-Matrice-90.png" alt="DJI-Matrice-90"></a>
+                        <a><img class="column" src="https://i.ibb.co/TcH3WfW/Leica-p50.png" alt="Leica-p50"></a>
+                        <a><img class="column" src="https://i.ibb.co/4s50vpM/Pri-Equipment-Phantom-4.png" alt="Phantom-4"></a>
+                    </div>
+                <div class="line"></div> <!-- 2nd Line Breaker -->
+                    <div class="banner">
+                    <img src="https://i.ibb.co/bLBGsQV/Drone-Img3.jpg" alt="Image of a building site">
+                        <div class="oneCol">
+                            <h2 id="mainTitle">COVID-19 | Free Remote Site Monitoring</h2>
+                        </div>
+                        <div class="oneColText">
+                            <p id="headerText">In reponse to the outbreak of Covid-19 VisualSkies are offering free* aerial site monitoring to help promote social distancing.</p>
+                            <a class="btn1" href="https://mcusercontent.com/52a687ad4a2b6952dbfa663e2/files/a87787a9-33dd-4ab4-a44e-1db076e28e22/VS_COVID_19_SITE_MONITORING.04.pdf" target="_blank">Find Out More.</a>
+                        </div>
+                    </div>
+                    <div class="line"></div> <!-- 2nd Line Breaker -->
+                            <div class="sixCol">
+                                <div class="line1"></div>
+                                <h2 class="titleServ">Our services to support you in this time</h2>
+                                <div class="line1"></div>
+                                <div class="row1">
+                                    <div class="upperLeft">                               
+                                        <a><img src="https://i.ibb.co/hLNX6gY/Drone-Image1.png"></a>
+                                        <div class="upperLeftText">
+                                            <h3>FREE</h3>
+                                        </div>
+                                    </div>
+                                    <div class="upperCenter">
+                                        <a><img src="https://i.ibb.co/0hMGdWg/Drone-Image2.png" alt="Image of a Drone flying"></a>
+                                        <div class="upperCenterText">
+                                            <h3>01</h3>
+                                        </div>
+                                    </div>
+                                    <div class="upperRight">
+                                        <a><img src="https://i.ibb.co/zhCMrnR/Drone-Image-6.png" alt="3D composite Image"></a>
+                                        <div class="upperRightText">
+                                            <h3>02</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p>In response to the Covid-19 outbreak Visualskies are mobilising
+                                    their full range of aerial technology and 3D expertise to help
+                                    circumvent some of the issues that construction industry
+                                    professionals are currently experiencing. Drone technology
+                                    enables us to remotely access sites whilst, at the same time,
+                                    maintaining the social distancing that is so essential to our
+                                    welfare at the moment</p>
+                                <div class="row2">
+                                    <div class="upperLeft1">                               
+                                        <a><img src="https://i.ibb.co/ys1XzYP/Drone-Image4.png" alt="Image of 3D composite"></a>
+                                        <div class="upperLeftText1">
+                                            <h3>03</h3>
+                                        </div>
+                                    </div>
+                                    <div class="upperCenter1">
+                                        <a><img src="https://i.ibb.co/8jb0xsq/Drone-Image5.png" alt="Image of building Site"></a>
+                                        <div class="upperCenterText1">
+                                            <h3>04</h3>
+                                        </div>
+                                    </div>
+                                    <div class="upperRight1">
+                                        <a><img src="https://i.ibb.co/fDgyBpK/Drone-Image7.png" alt="Image of Building site"></a>
+                                        <div class="upperRightText1">
+                                            <h3>05</h3>
+                                        </div>
+                                    </div>
+                                </div>       
+                            </div>
+                            <div class="line"></div> <!-- 3rd Line Breaker -->
+    <!--Services-->             <div class="Services">
+                                    <a><img src="https://i.ibb.co/D1fSdyd/Photo-and-Video.png" alt="Photo-and-Video"></a>
+                                    <a><img src="https://i.ibb.co/PZdxj07/Time-Lapse.png" alt="Time-Lapse"></a>
+                                    <a><img src="https://i.ibb.co/X37pMN4/3d-Scanning-1.png" alt="3d-Scanning-1"></a></a>
+                                    <a><img src="https://i.ibb.co/S6HJYx9/VR.png" alt="VR"></a>
+                                    <a><img src="https://i.ibb.co/qRdCbhM/Augmented-Reality.png" alt="Augmented-Reality"></a>
+                                </div>
+                            <div class="line"></div> <!-- 4th Line Breaker -->
+    <!-- Company and services info -->
+                            <div class="line"></div> <!-- 5th Line Breaker -->
+    <!-- clients -->            <div class="Six-Col">
+                                    <img class="srvImg" src="https://i.ibb.co/zR0CmCN/VS-CLIENT-WARNER-1.png" alt="VisualSkies Client Warner Brothers">
+                                    <img class="srvImg" src="https://i.ibb.co/sJBBQ1t/VS-CLIENT-VICE-3.png" alt="VisualSkies Client Vice">
+                                    <img class="srvImg" src="https://i.ibb.co/crPFzhv/VS-CLIENT-LAING.png" alt="VisualSkies Client Laing">
+                                    <img class="srvImg" src="https://i.ibb.co/MCPjT7D/VS-CLIENT-HBO-1.png" alt="VisualSkies Client HBO">
+                                    <img class="srvImg" src="https://i.ibb.co/ZSr6tLv/VS-CLIENT-VICE-2.png" alt="VisualSkies Client Disney">
+                                    <img class="srvImg" src="https://i.ibb.co/BnKNK1w/VS-CLIENT-AVR.png" alt="VisualSkies Client AVR London">
+                                </div>
+                                <div class="Six-Col">
+                                    <img class="srvImg-1" src="https://i.ibb.co/yf0C0nk/VS-CLIENT-A2.png" alt="VS-CLIENT-A2">
+                                    <img class="srvImg-1" src="https://i.ibb.co/SdngG7n/VS-CLIENT-ASSAEL.png" alt="Visual Skies Client Assaels">
+                                    <img class="srvImg-1" src="https://i.ibb.co/6YVsX4j/VS-CLIENT-PC.png" alt="Visual Skies Palmer Capital">
+                                    <img class="srvImg-1" src="https://i.ibb.co/R0HPnLC/VS-CLIENT-ahmm.png" alt="VisualSkies Client Allford Hall">
+                                    <img class="srvImg-1" src="https://i.ibb.co/Lx0XF94/VS-CLIENT-NAT-GEO.png" alt="National Geographic">
+                                    <img class="srvImg-1" src="https://i.ibb.co/JHk93R4/channel-4-copy.png" alt="VisualSkies Client Channel 4">
+                                </div>
+                            <div class="line"></div> <!-- 6th Line Breaker -->
+    <!-- Footer -->         <footer>
+                                <div class="Locations">
+                                    <h4>VISUALSKIES WEST</h4>
+                                    <p>
+                                        Room 113<br>
+                                        N Block<br>
+                                        Pinewood Studios - Buckingshamshire - SL0 0NH
+                                    </p>
+                                </div>
+                                <div class="Locations">
+                                    <h4>VISUALSKIES SOUTH</h4>
+                                    <p>
+                                        A01<br>
+                                        9 Lyon Road<br>
+                                        Mainyard Studios - Wimbledon - SW19 2RL
+                                    </p>
+                                </div>
+                            </footer>               
+            </div>
+        </body>
+    </html>
+
+
+    <a><img src="https://i.ibb.co/X8C7YLC/Drone-Img-4.jpg" alt="Drone-Img-4"></a>
+ 
+
+    Test1
