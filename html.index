@@ -4,7 +4,7 @@
     <title></title>
     <style>
         body {
-            max-width: 600px;
+            max-width: 700px;
             margin: 0 auto;
             font-family: 'inherit', sans-serif;
         }
@@ -55,15 +55,17 @@
         }
 
         .banner {
-            height: 300px;
+            height: 360px;
             overflow: hidden;
             position: relative;
             color: white;
+            margin-right: 20px;
+            margin-left: 20px;
         }
 
         .oneCol {
             position: absolute;
-            margin-bottom: 40%;
+            margin-bottom: 45%;
             bottom: 8px;
             left: 16px;
         }
@@ -71,7 +73,7 @@
         .oneColText {
             position: absolute;
             margin-left: 50%;
-            bottom: 8px;
+            bottom: 10px;
         }
 
         #mainTitle {
@@ -195,33 +197,27 @@
             position: relative;
         }
 
-        .srvImg {
-            width: 120px;
-            padding: 20px;
-        }
-
-        .srvImg-1 {
-            width: 120px;
-            padding: 20px;
-        }
-
-        .Six-Col {
-            background-color: gray;
-        }
-
-        .footer {
-
-            display: flex;
-
-        }
-
         .footerImg {
-
             position: relative;
-        
+            max-width: 50%;
         }
 
         .footerText {
+            position: absolute;
+            margin-bottom: 25%;
+            bottom: 8px;
+            left: 16px;
+        }
+
+        .footerImg1 {
+
+            position: relative;
+            margin-left: 50%;
+            max-width: 50%;
+
+        }
+
+        .footerText1 {
 
             position: absolute;
             margin-bottom: 25%;
@@ -230,7 +226,10 @@
 
         }
 
-
+        .preFooter {
+            height: 400px;
+            overflow: hidden;
+        }
     </style>
 
     <body>
@@ -289,7 +288,7 @@
                     </div>
                 </div>
                 <div class="line"></div> <!-- 2nd Line Breaker -->
-                <div class="sixCol">
+                <div class="threeCol">
                     <div class="line1"></div>
                     <h2 class="titleServ">Our services to support you in this time</h2>
                     <p>In response to the Covid-19 outbreak Visualskies are mobilising
@@ -400,34 +399,8 @@
                     <a><img src="https://i.ibb.co/qRdCbhM/Augmented-Reality.png" alt="Augmented-Reality"></a>
                 </div>
                 <div class="line"></div> <!-- 4th Line Breaker -->
-                <!-- Company and services info -->
-
-                <!-- clients -->
-                <div class="Six-Col">
-                    <img class="srvImg" src="https://i.ibb.co/zR0CmCN/VS-CLIENT-WARNER-1.png"
-                        alt="VisualSkies Client Warner Brothers">
-                    <img class="srvImg" src="https://i.ibb.co/sJBBQ1t/VS-CLIENT-VICE-3.png"
-                        alt="VisualSkies Client Vice">
-                    <img class="srvImg" src="https://i.ibb.co/crPFzhv/VS-CLIENT-LAING.png"
-                        alt="VisualSkies Client Laing">
-                    <img class="srvImg" src="https://i.ibb.co/MCPjT7D/VS-CLIENT-HBO-1.png" alt="VisualSkies Client HBO">
-                    <img class="srvImg" src="https://i.ibb.co/ZSr6tLv/VS-CLIENT-VICE-2.png"
-                        alt="VisualSkies Client Disney">
-                    <img class="srvImg" src="https://i.ibb.co/BnKNK1w/VS-CLIENT-AVR.png"
-                        alt="VisualSkies Client AVR London">
-                </div>
-                <div class="Six-Col">
-                    <img class="srvImg-1" src="https://i.ibb.co/yf0C0nk/VS-CLIENT-A2.png" alt="VS-CLIENT-A2">
-                    <img class="srvImg-1" src="https://i.ibb.co/SdngG7n/VS-CLIENT-ASSAEL.png"
-                        alt="Visual Skies Client Assaels">
-                    <img class="srvImg-1" src="https://i.ibb.co/6YVsX4j/VS-CLIENT-PC.png"
-                        alt="Visual Skies Palmer Capital">
-                    <img class="srvImg-1" src="https://i.ibb.co/R0HPnLC/VS-CLIENT-ahmm.png"
-                        alt="VisualSkies Client Allford Hall">
-                    <img class="srvImg-1" src="https://i.ibb.co/Lx0XF94/VS-CLIENT-NAT-GEO.png"
-                        alt="National Geographic">
-                    <img class="srvImg-1" src="https://i.ibb.co/JHk93R4/channel-4-copy.png"
-                        alt="VisualSkies Client Channel 4">
+                <div class="brands">
+                    <img src="https://i.ibb.co/QYqPsCC/Picture2.png" alt="Image of clients">
                 </div>
                 <div class="line"></div> <!-- 6th Line Breaker -->
                 <!-- Footer -->
@@ -437,7 +410,7 @@
                 <div class="line"></div>
                 <div class="footer">
                     <div class="footerImg">
-                        <img src="https://i.ibb.co/McQNnz3/Pinewood-web.jpg" alt="Pinewood">
+                        <img src="https://i.ibb.co/GkJgSpq/Mainyard.jpg" alt="VisualSkies Studio">
                         <div class="footerText">
                             <h4>VISUALSKIES WEST</h4>
                             <p>
@@ -447,9 +420,9 @@
                             </p>
                         </div>
                     </div>
-                    <div class="footerImg">
-                        <img src="https://i.ibb.co/GkJgSpq/Mainyard.jpg" alt="VisualSkies Studio">
-                        <div class="footerText">
+                    <div class="footerImg1">
+                        <img src="https://i.ibb.co/McQNnz3/Pinewood-web.jpg" alt="Pinewood">
+                        <div class="footerText1">
                             <h4>VISUALSKIES SOUTH</h4>
                             <p>
                                 A01<br>
