@@ -205,6 +205,10 @@
             max-width: 50%;
         }
 
+        #brands {
+            border-radius: 60px 10px 60px;
+        }
+
         #imgBan1 {
             border-radius: 60px 10px 60px;
         }
@@ -223,6 +227,7 @@
         .preFooter {
             height: 400px;
             overflow: hidden;
+            border-radius: 60px 10px 60px;
         }
     </style>
 
@@ -394,7 +399,7 @@
                 </div>
                 <div class="line"></div> <!-- 4th Line Breaker -->
                 <div class="brands">
-                    <img src="https://i.ibb.co/QYqPsCC/Picture2.png" alt="Image of clients">
+                    <img id="brands" src="https://i.ibb.co/QYqPsCC/Picture2.png" alt="Image of clients">
                 </div>
                 <div class="line"></div> <!-- 6th Line Breaker -->
                 <!-- Footer -->
