@@ -50,7 +50,6 @@
         }
 
         .column {
-            width: 120px;
             padding: 1px;
         }
 
@@ -99,7 +98,7 @@
         }
 
         img {
-            max-width: 100%;
+            width: 100%;
         }
 
         .Services {
@@ -197,32 +196,27 @@
             position: relative;
         }
 
+        .footer {
+            display: flex;
+        }
+
         .footerImg {
             position: relative;
             max-width: 50%;
         }
 
-        .footerText {
-            position: absolute;
-            margin-bottom: 25%;
-            bottom: 8px;
-            left: 16px;
+        #imgBan1 {
+            border-radius: 60px 10px 60px;
+        }
+
+        #imgBan2 {
+            border-radius: 60px 10px 60px;
         }
 
         .footerImg1 {
 
             position: relative;
-            margin-left: 50%;
             max-width: 50%;
-
-        }
-
-        .footerText1 {
-
-            position: absolute;
-            margin-bottom: 25%;
-            bottom: 8px;
-            left: 16px;
 
         }
 
@@ -410,18 +404,20 @@
                 <div class="line"></div>
                 <div class="footer">
                     <div class="footerImg">
-                        <img src="https://i.ibb.co/GkJgSpq/Mainyard.jpg" alt="VisualSkies Studio">
+                        <img id="imgBan1" src="https://i.ibb.co/GkJgSpq/Mainyard.jpg" alt="VisualSkies Studio">
                         <div class="footerText">
                             <h4>VISUALSKIES WEST</h4>
                             <p>
-                                Room 113<br>
-                                N Block<br>
-                                Pinewood Studios - Buckingshamshire - SL0 0NH
+                                Room 113 </br>
+                                N Block
+                                Pinewood
+                                Buckinghamshire
+                                SL0 0NH
                             </p>
                         </div>
                     </div>
                     <div class="footerImg1">
-                        <img src="https://i.ibb.co/McQNnz3/Pinewood-web.jpg" alt="Pinewood">
+                        <img id="imgBan2" src="https://i.ibb.co/McQNnz3/Pinewood-web.jpg" alt="Pinewood">
                         <div class="footerText1">
                             <h4>VISUALSKIES SOUTH</h4>
                             <p>
