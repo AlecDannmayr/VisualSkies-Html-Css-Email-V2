@@ -1,0 +1,233 @@
+
+<!DOCTYPE html>
+<html>
+<header>
+    <title></title>
+    <style>
+        body {
+            max-width: 700px;
+            margin: 0 auto;
+            font-family: 'inherit', sans-serif;
+        }
+
+        header {
+            width: 95%
+        }
+
+        #VS-logo {
+            margin: 2% 0% 0% 3%;
+            width: 200px;
+            float: left;
+        }
+
+        #callout {
+            float: right;
+            margin: 0% 2% 1% 0;
+        }
+
+        .social {
+            float: right;
+            list-style-type: none;
+            margin-top: 8%;
+        }
+
+        .social li {
+            display: inline-block;
+        }
+
+        .socialImg {
+            width: 40px;
+        }
+
+        .line {
+            clear: both;
+            height: 2px;
+            background-color: black;
+            margin: 4% auto;
+        }
+
+        .row {
+            display: flex;
+        }
+
+        .column {
+            padding: 1px;
+        }
+
+        .banner {
+            height: 360px;
+            overflow: hidden;
+            position: relative;
+            color: white;
+            margin-right: 20px;
+            margin-left: 20px;
+        }
+
+        .oneCol {
+            position: absolute;
+            margin-bottom: 45%;
+            bottom: 8px;
+            left: 16px;
+        }
+
+        .oneColText {
+            position: absolute;
+            margin-left: 50%;
+            bottom: 10px;
+        }
+
+        #mainTitle {
+            font-size: x-large;
+            font-weight: bolder;
+        }
+
+        #headerText {
+            font-size: medium;
+            color: white;
+        }
+
+        .btn1 {
+            float: right;
+            margin-right: 5%;
+            border-radius: 8px;
+            color: white;
+            background-color: black;
+            font-size: 16px;
+            text-decoration: none;
+            padding: 9px 12px;
+            letter-spacing: 1px;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        .Services {
+            display: flex;
+        }
+
+        .titleServ {
+            font-size: x-large;
+            font-style: italic;
+            font-weight: 500;
+            font-family: 'inherit', sans-serif;
+            text-align: center;
+        }
+
+        .row1 {
+            display: flex;
+            color: whitesmoke;
+            font-weight: 100;
+            letter-spacing: 0.05in;
+            font-family: inherit, sans-serif;
+        }
+
+        h3 {
+            font-weight: 100;
+            letter-spacing: 0.05in;
+            font-family: inherit, sans-serif;
+            font-size: large;
+        }
+
+        .upperLeft {
+            position: relative;
+        }
+
+        .upperLeftText {
+            position: absolute;
+            bottom: -10px;
+            left: 5px;
+        }
+
+        .upperCenter {
+            position: relative;
+        }
+
+        .upperCenterText {
+            position: absolute;
+            bottom: -10px;
+            left: 5px;
+        }
+
+        .upperRight {
+            position: relative;
+        }
+
+        .upperRightText {
+            position: absolute;
+            bottom: -10px;
+            left: 5px;
+        }
+
+        .upperRightText1 {
+            position: absolute;
+            bottom: -10px;
+            left: 5px;
+        }
+
+        .row2 {
+            display: flex;
+            color: whitesmoke;
+            font-weight: 100;
+            letter-spacing: 0.05in;
+            font-family: inherit, sans-serif;
+        }
+
+        .upperLeft1 {
+            position: relative;
+        }
+
+        .upperLeftText1 {
+            position: absolute;
+            bottom: -10px;
+            left: 5px;
+        }
+
+        .upperCenter1 {
+            position: relative;
+        }
+
+        .upperCenterText1 {
+            position: absolute;
+            bottom: -10px;
+            left: 5px;
+        }
+
+        .upperRight1 {
+            position: relative;
+        }
+
+        .footer {
+            display: flex;
+        }
+
+        .footerImg {
+            position: relative;
+            max-width: 50%;
+        }
+
+        #brands {
+            border-radius: 60px 10px 60px;
+        }
+
+        #imgBan1 {
+            border-radius: 60px 10px 60px;
+        }
+
+        #imgBan2 {
+            border-radius: 60px 10px 60px;
+        }
+
+        .footerImg1 {
+
+            position: relative;
+            max-width: 50%;
+
+        }
+
+        .preFooter {
+            height: 400px;
+            overflow: hidden;
+            border-radius: 60px 10px 60px;
+        }
+    </style>
